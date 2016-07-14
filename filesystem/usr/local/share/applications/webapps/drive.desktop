@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Drive
+Exec=/usr/bin/google-chrome --app=http://drive.google.com
+Icon=google-drive
+StartupWMClass=drive.google.com
+Hidden=true

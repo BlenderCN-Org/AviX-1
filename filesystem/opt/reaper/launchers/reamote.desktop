@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=REAMote Slave (x64)
+Exec=/opt/reaper/reamote.sh
+Type=Application
+StartupNotify=true
+Icon=E1C9_reamote.0
+StartupWMClass=reamote.exe
+Categories=AudioVideo;

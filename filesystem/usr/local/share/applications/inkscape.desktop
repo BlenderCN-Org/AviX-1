@@ -1,0 +1,30 @@
+[Desktop Entry]
+Version=1.0
+Name=Inkscape
+GenericName=Vector Graphics Editor
+X-GNOME-FullName=Inkscape Vector Graphics Editor
+Comment=Create and edit Scalable Vector Graphics images
+Type=Application
+Categories=Graphics;VectorGraphics;GTK;
+MimeType=image/svg+xml;image/svg+xml-compressed;application/vnd.corel-draw;image/x-eps;application/illustrator;
+Exec=inkscape %F
+TryExec=inkscape
+Terminal=false
+StartupNotify=true
+Icon=inkscape
+X-Ayatana-Desktop-Shortcuts=Drawing;Dark
+X-Ubuntu-Gettext-Domain=inkscape
+StartupWMClass=inkscape
+
+[Drawing Shortcut Group]
+Name=New Drawing
+Exec=inkscape
+TargetEnvironment=Unity
+Icon=inkscape
+
+[Dark Shortcut Group]
+Name=Start with dark theme
+Name[pt_BR]=Iniciar com tema escuro
+Exec=env GTK_DATA_PREFIX="/opt/dark-theme" XDG_CONFIG_HOME="/opt/xdg-alternative" inkscape
+Icon=inkscape
+TargetEnvironment=Unity

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Ajenti Web GUI
+Exec=/usr/bin/google-chrome --app=https://127.0.0.1:8000
+Icon=ajenti
+Terminal=false
+Categories=System;
+StartupWMClass=127.0.0.1
+Comment=Painel de administração do sistema

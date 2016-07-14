@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Mail.com
+Exec=/usr/bin/google-chrome --app=http://mail.com
+Icon=mail.com
+StartupWMClass=mail.com
+Hidden=true

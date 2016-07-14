@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Pixlr Editor
+Exec=/usr/bin/google-chrome --app=http://pixlr.com/editor
+Icon=pixlr-editor
+StartupWMClass=pixlr.com__editor
+Hidden=true

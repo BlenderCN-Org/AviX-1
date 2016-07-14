@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Startup system config
+Name[pt_BR]=Configuração inicial do sistema
+Exec=bash /opt/config/config.sh
+Icon=zeroinstall
+OnlyShowIn=XFCE;
+Terminal=false
+Type=Application

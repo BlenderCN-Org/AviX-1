@@ -1,0 +1,32 @@
+[Desktop Entry]
+Name=REAPER (x64)
+Exec=/opt/reaper/reaper.sh %f
+Type=Application
+StartupNotify=true
+Icon=C8F2_reaper.0
+StartupWMClass=reaper.exe
+MimeType=application/x-wine-extension-rpp;application/x-wine-extension-rpp-bak;application/x-wine-extension-reaperthemezip;
+Categories=AudioVideo;
+
+Actions=NewProject;ShowAudioConfig;ReaMote;
+
+[Desktop Action NewProject]
+Name=REAPER (x64) (create new project)
+Name[pt_BR]=REAPER (x64) (criar novo projeto)
+Exec=/opt/reaper/reaper.sh --new
+Icon=C8F2_reaper.0
+OnlyShowIn=Unity;
+
+[Desktop Action ShowAudioConfig]
+Name=REAPER (x64) (show audio configuration on startup)
+Name[pt_BR]=REAPER (x64) (mostrar configurações de áudio ao iniciar)
+Exec=/opt/reaper/reaper.sh --audiocfg
+Icon=C8F2_reaper.0
+OnlyShowIn=Unity;
+
+[Desktop Action ReaMote]
+Name=REAMote Slave (x64)
+Name=REAMote escravo (x64)
+Exec=/opt/reaper/reamote.sh
+Icon=E1C9_reamote.0
+OnlyShowIn=Unity;

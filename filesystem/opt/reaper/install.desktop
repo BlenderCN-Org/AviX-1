@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=REAPER Install
+Name[pt_BR]=Instalação do REAPER
+Exec=bash /opt/reaper/install.sh
+Icon=zeroinstall
+Terminal=false
+Type=Application
+Categories=Wine;
+Comment=Instalação automatizada do REAPER

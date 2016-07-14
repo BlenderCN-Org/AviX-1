@@ -1,0 +1,109 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+ "http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+
+<Menu>
+  <Name>Settings</Name>
+
+  <DefaultAppDirs/>
+  <DefaultDirectoryDirs/>
+  <DefaultMergeDirs/>
+
+   <Layout>
+     <Menuname>Personal</Menuname>
+     <Menuname>Hardware</Menuname>
+     <Menuname>System</Menuname>
+     <Menuname>Other</Menuname>
+     <Merge type="all" />
+   </Layout>
+
+  <Include>
+    <And>
+      <Category>Settings</Category>
+      <Not>
+        <Or>
+          <Category>X-XFCE-PersonalSettings</Category>
+          <Category>X-XFCE-HardwareSettings</Category>
+          <Category>X-XFCE-SystemSettings</Category>
+        </Or>
+      </Not>
+    </And>
+  </Include>
+
+  <Exclude>
+    <Filename>xfce-settings-manager.desktop</Filename>
+  </Exclude>
+
+  <Menu>
+    <Name>Personal</Name>
+    <Directory>xfce-personal.directory</Directory>
+    <Include>
+    <Filename>qtconfig-qt4.desktop</Filename>
+    <Filename>qt5ct.desktop</Filename>
+    <Filename>mugshot.desktop</Filename>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Category>X-XFCE-PersonalSettings</Category>
+      </And>
+      <Filename>xscreensaver-properties.desktop</Filename>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Hardware</Name>
+    <Directory>xfce-hardware.directory</Directory>
+    <Include>
+    <Filename>software-properties-drivers.desktop</Filename>
+    <Filename>org.gnome.DiskUtility.desktop</Filename>
+    <Filename>driconf.desktop</Filename>
+    <Filename>nvidia-settings.desktop</Filename>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Category>X-XFCE-HardwareSettings</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>System</Name>
+    <Directory>xfce-system.directory</Directory>
+    <Include>
+    <Filename>time.desktop</Filename>
+    <Filename>network.desktop</Filename>
+    <Filename>software-properties-gtk.desktop</Filename>
+    <Filename>system-config-samba.desktop</Filename>
+    <Filename>language-selector.desktop</Filename>
+    <Filename>users.desktop</Filename>
+    <Filename>ajenti-ajenti.desktop</Filename>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Category>X-XFCE-SystemSettings</Category>
+      </And>
+    </Include>
+  </Menu>
+
+  <Menu>
+    <Name>Other</Name>
+    <Directory>xfce-other.directory</Directory>
+    <Include>
+    <Filename>nautilus-scripts-manager.desktop</Filename>
+    <Filename>afanasy-afanasy-services.desktop</Filename>
+    <Filename>install.desktop</Filename>
+      <And>
+        <Category>Settings</Category>
+        <Category>X-XFCE-SettingsDialog</Category>
+        <Not>
+          <Or>
+            <Category>X-XFCE-PersonalSettings</Category>
+            <Category>X-XFCE-SystemSettings</Category>
+            <Category>X-XFCE-HardwareSettings</Category>
+            <Filename>xfce-settings-manager.desktop</Filename>
+          </Or>
+        </Not>
+      </And>
+    </Include>
+  </Menu>
+
+</Menu>

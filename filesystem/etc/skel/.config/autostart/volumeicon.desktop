@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=volumeicon
+Name=Volume Icon
+Categories=Utility;GTK
+Icon=
+OnlyShowIn=XFCE;

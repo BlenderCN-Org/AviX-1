@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Messenger
+Exec=/usr/bin/google-chrome --app=http://messenger.com
+Icon=messenger
+StartupWMClass=messenger.com
+Hidden=true

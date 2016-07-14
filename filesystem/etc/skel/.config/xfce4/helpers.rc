@@ -1,0 +1,4 @@
+FileManager=nautilus
+MailReader=custom-MailReader
+
+WebBrowser=google-chrome

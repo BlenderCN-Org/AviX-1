@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Telegram Web
+Exec=/usr/bin/google-chrome --app=https://web.telegram.org/#/im
+Icon=telegram
+StartupWMClass=web.telegram.org
+Hidden=true

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="26"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="8"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="2"/>
+      </property>
+      <property name="background-alpha" type="uint" value="100"/>
+      <property name="autohide-behavior" type="uint" value="0"/>
+      <property name="leave-opacity" type="uint" value="95"/>
+      <property name="enter-opacity" type="uint" value="95"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="background-style" type="uint" value="0"/>
+      <property name="background-color" type="array">
+        <value type="uint" value="0"/>
+        <value type="uint" value="0"/>
+        <value type="uint" value="0"/>
+        <value type="uint" value="65535"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-5" type="string" value="clock">
+      <property name="digital-format" type="string" value="&lt;b&gt;%d de %b, %R &lt;/b&gt;"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="names-visible" type="array">
+        <value type="string" value="diodon"/>
+        <value type="string" value="qasmixer"/>
+        <value type="string" value="qbittorrent"/>
+        <value type="string" value="gerenciador de tarefas"/>
+        <value type="string" value="rede"/>
+        <value type="string" value="volumeicon"/>
+        <value type="string" value="miniaplicativo gerenciador de redes"/>
+        <value type="string" value="chromium-browser"/>
+        <value type="string" value="clipit"/>
+        <value type="string" value="compartilhamento da área de trabalho do gnome"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="remmina"/>
+        <value type="string" value="gnome-mplayer"/>
+        <value type="string" value="cadence.py"/>
+      </property>
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="size-max" type="uint" value="24"/>
+    </property>
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-2" type="string" value="wckbuttons"/>
+    <property name="plugin-8" type="string" value="windowck-plugin"/>
+  </property>
+</channel>

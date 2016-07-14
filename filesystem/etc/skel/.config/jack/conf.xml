@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+JACK settings, as persisted by D-Bus object.
+You probably don't want to edit this because
+it will be overwritten next time jackdbus saves.
+-->
+<!-- Sat Jun 18 02:56:33 2016 -->
+<jack>
+ <engine>
+  <option name="driver">alsa</option>
+ </engine>
+ <drivers>
+  <driver name="loopback">
+  </driver>
+  <driver name="netone">
+  </driver>
+  <driver name="net">
+  </driver>
+  <driver name="alsa">
+   <option name="period">256</option>
+   <option name="softmode">true</option>
+   <option name="midi-driver">seq</option>
+  </driver>
+  <driver name="alsarawmidi">
+  </driver>
+  <driver name="dummy">
+  </driver>
+ </drivers>
+ <internals>
+  <internal name="profiler">
+  </internal>
+  <internal name="netadapter">
+  </internal>
+  <internal name="netmanager">
+  </internal>
+  <internal name="audioadapter">
+  </internal>
+ </internals>
+</jack>

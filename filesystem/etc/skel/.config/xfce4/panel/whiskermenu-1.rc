@@ -1,0 +1,60 @@
+favorites=exo-terminal-emulator.desktop,exo-file-manager.desktop,exo-mail-reader.desktop,exo-web-browser.desktop
+recent=
+button-title=Aplicações
+button-icon=/usr/share/icons/Humanity/places/48/distributor-logo.svg
+button-single-row=false
+show-button-title=false
+show-button-icon=true
+launcher-show-name=true
+launcher-show-description=false
+item-icon-size=1
+hover-switch-category=true
+category-icon-size=0
+load-hierarchy=true
+recent-items-max=16
+favorites-in-recent=true
+display-recent-default=true
+position-search-alternate=false
+position-commands-alternate=false
+position-categories-alternate=true
+menu-width=486
+menu-height=501
+menu-opacity=95
+command-settings=xfce4-settings-manager
+show-command-settings=true
+command-lockscreen=xflock4
+show-command-lockscreen=false
+command-switchuser=dm-tool switch-to-greeter
+show-command-switchuser=false
+command-logout=xfce4-session-logout
+show-command-logout=true
+command-menueditor=menulibre
+show-command-menueditor=false
+command-profile=mugshot
+show-command-profile=true
+search-actions=4
+
+[action0]
+name=Página principal
+pattern=#
+command=exo-open --launch TerminalEmulator man %s
+regex=false
+
+[action1]
+name=Wikipedia
+pattern=!w
+command=exo-open --launch WebBrowser https://en.wikipedia.org/wiki/%u
+regex=false
+
+[action2]
+name=Executar em terminal
+pattern=!
+command=exo-open --launch TerminalEmulator %s
+regex=false
+
+[action3]
+name=Abrir URI
+pattern=^(file|http|https):\\/\\/(.*)$
+command=exo-open \\0
+regex=true
+

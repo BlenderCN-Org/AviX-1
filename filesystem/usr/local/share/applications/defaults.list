@@ -1,0 +1,8 @@
+[Default Applications]
+text/html=firefox.desktop;vivaldi-stable.desktop;maxthon.desktop
+text/xml=firefox.desktop;vivaldi-stable.desktop;maxthon.desktop
+application/xhtml_xml=vivaldi-stable.desktop;;maxthon.desktop
+image/webp=vivaldi-stable.desktop;;maxthon.desktop
+x-scheme-handler/http=firefox.desktop;vivaldi-stable.desktop;maxthon.desktop
+x-scheme-handler/https=firefox.desktop;vivaldi-stable.desktop;maxthon.desktop
+x-scheme-handler/ftp=vivaldi-stable.desktop;;maxthon.desktop

@@ -1,0 +1,10 @@
+style "darkback"
+{
+	bg[NORMAL] = "#242424"
+	bg[ACTIVE] = "#398ee7"
+	bg[PRELIGHT] = "#398ee7"
+	fg[NORMAL] = "#ccc"
+	fg[ACTIVE] = "#fff"
+	fg[PRELIGHT] = "#fff"
+}
+widget "whiskermenu-window*" style "darkback"

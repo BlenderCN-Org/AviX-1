@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Webcam Toy
+Exec=/usr/bin/google-chrome --app=http://webcamtoy.com
+Icon=webcam-toy
+StartupWMClass=webcamtoy.com
+Hidden=true

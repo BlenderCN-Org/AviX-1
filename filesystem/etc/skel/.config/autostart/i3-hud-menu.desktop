@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Exec=/opt/i3-hud-menu/i3-appmenu-service.py
+Name=i3 HUD Menu
+Categories=Utility;GTK
+Icon=
+OnlyShowIn=XFCE;

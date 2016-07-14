@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Raul Dipeas - Blog
+Exec=/usr/bin/google-chrome --app=http://rauldipeas.github.io
+Icon=github
+StartupWMClass=rauldipeas.github.io
+Hidden=true

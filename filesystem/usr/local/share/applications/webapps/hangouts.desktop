@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Hangouts
+Exec=/usr/bin/google-chrome --app=http://hangouts.google.com
+Icon=hangouts
+#StartupWMClass=crx_nckgahadagoaajjgafhacjanaoiihapd
+StartupWMClass=hangouts.google.com
+Hidden=true

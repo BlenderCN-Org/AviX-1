@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=NVIDIA X Server Settings
+Comment=Configure NVIDIA X Server Settings
+Exec=nvidia-settings -a [gpu:0]/GpuPowerMizerMode=1
+Icon=nvidia-settings
+Categories=System;Settings;

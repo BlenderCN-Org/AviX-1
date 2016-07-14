@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Photos
+Exec=/usr/bin/google-chrome --app=https://photos.google.com
+Icon=photos
+StartupWMClass=photos.google.com
+Hidden=true

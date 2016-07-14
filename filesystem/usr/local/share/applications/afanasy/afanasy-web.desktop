@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=CGRU - Afanasy Web GUI
+Exec=/usr/bin/google-chrome --app=http://localhost:51000
+Icon=cgrumenuitem
+Terminal=false
+Categories=Graphics;
+StartupWMClass=localhost

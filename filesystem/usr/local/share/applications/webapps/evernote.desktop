@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Evernote
+Exec=/usr/bin/google-chrome --app=http://evernote.com
+Icon=evernote
+StartupWMClass=evernote.com
+Hidden=true

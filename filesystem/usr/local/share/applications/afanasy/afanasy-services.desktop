@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Exec=bash -x /opt/afanasy-services/afanasy-services.sh
+Icon=preferences-system-sharing
+Type=Application
+Categories=System;
+Terminal=false
+StartupNotify=true
+Name=Manage the Afanasy services
+Name[pt_BR]=Gerenciar os serviços do Afanasy
+Comment=Ative ou desative os serviços de rede do Afanasy

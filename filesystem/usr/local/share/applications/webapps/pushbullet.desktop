@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Pushbullet
+Exec=/usr/bin/google-chrome --app=http://pushbullet.com
+Icon=web-pushbullet
+StartupWMClass=pushbullet.com
+Hidden=true

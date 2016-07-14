@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=YouTube
+Exec=/usr/bin/google-chrome --app=http://youtube.com
+Icon=youtube
+StartupWMClass=youtube.com
+Hidden=true

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Gravit
+Exec=/usr/bin/google-chrome --app=http://gravit.io
+Icon=gravit
+StartupWMClass=gravit.io
+Hidden=true

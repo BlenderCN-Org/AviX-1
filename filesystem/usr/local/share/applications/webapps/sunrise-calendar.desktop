@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Sunrise Calendar
+Exec=/usr/bin/google-chrome --app=http://calendar.sunrise.am
+Icon=sunrise-calendar
+StartupWMClass=calendar.sunrise.am
+Hidden=true

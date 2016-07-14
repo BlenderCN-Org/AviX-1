@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Flickr
+Exec=/usr/bin/google-chrome --app=https://www.flickr.com
+Icon=flickr
+StartupWMClass=www.flickr.com
+Hidden=true

@@ -1,0 +1,150 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Google Chrome Web Store
+Name[pt_BR]=Loja de aplicativos do Google Chrome
+Exec=/usr/bin/google-chrome --app=https://chrome.google.com/webstore/category/apps/
+Icon=chrome-web-store
+StartupWMClass=chrome.google.com__webstore_category_apps
+Categories=Network;
+
+Actions=Mail.com;SunriseCalendar;Evernote;Pushbullet;Space;Messenger;WhatsAppWeb;TelegramWeb;SkypeWeb;Hangouts;Appear.in;Space;Youtube;Photos;Flickr;SoundCloud;Drive;Space;PixlrEditor;Gravit;WebcamToy;Reep.io;Space;GitHub;GooglePlus;Fleeber
+
+[Desktop Action Mail.com]
+Name=Mail.com
+Exec=/usr/bin/google-chrome --app=http://mail.com
+Icon=mail.com
+OnlyShowIn=Unity;
+
+[Desktop Action SunriseCalendar]
+Name=Sunrise Calendar
+Exec=/usr/bin/google-chrome --app=http://calendar.sunrise.am
+Icon=sunrise-calendar
+OnlyShowIn=Unity;
+
+[Desktop Action Messenger]
+Name=Messenger
+Exec=/usr/bin/google-chrome --app=http://messenger.com
+Icon=messenger
+OnlyShowIn=Unity;
+
+[Desktop Action Hangouts]
+Name=Hangouts
+Exec=/usr/bin/google-chrome --app=http://hangouts.google.com
+Icon=hangouts
+OnlyShowIn=Unity;
+
+[Desktop Action WhatsAppWeb]
+Name=WhatsApp Web
+Exec=/usr/bin/google-chrome --app=http://web.whatsapp.com
+Icon=whatsapp
+OnlyShowIn=Unity;
+
+[Desktop Action Youtube]
+Name=YouTube
+Exec=/usr/bin/google-chrome --app=http://youtube.com
+Icon=youtube
+OnlyShowIn=Unity;
+
+[Desktop Action Evernote]
+Name=Evernote
+Exec=/usr/bin/google-chrome --app=http://evernote.com
+Icon=evernote
+OnlyShowIn=Unity;
+
+[Desktop Action Photos]
+Name=Photos
+Exec=/usr/bin/google-chrome --app=http://photos.google.com
+Icon=photos
+OnlyShowIn=Unity;
+
+[Desktop Action Drive]
+Name=Drive
+Exec=/usr/bin/google-chrome --app=http://drive.google.com
+Icon=google-drive
+OnlyShowIn=Unity;
+
+[Desktop Action PixlrEditor]
+Name=Pixlr Editor
+Exec=/usr/bin/google-chrome --app=http://pixlr.com/editor
+Icon=pixlr-editor
+OnlyShowIn=Unity;
+
+[Desktop Action Fleeber]
+Name=Fleeber
+Exec=/usr/bin/google-chrome --app=https://pt-br.fleeber.com/
+Icon=fleeber
+OnlyShowIn=Unity;
+
+[Desktop Action WebcamToy]
+Name=Webcam Toy
+Exec=/usr/bin/google-chrome --app=http://webcamtoy.com
+Icon=webcam-toy
+OnlyShowIn=Unity;
+
+[Desktop Action Gravit]
+Name=Gravit
+Exec=/usr/bin/google-chrome --app=http://gravit.io
+Icon=gravit
+OnlyShowIn=Unity;
+
+[Desktop Action GooglePlus]
+Name=Google+
+Exec=/usr/bin/google-chrome --app=https://plus.google.com/communities/105284806211759861912
+Icon=googleplus
+OnlyShowIn=Unity;
+
+[Desktop Action GitHub]
+Name=Raul Dipeas - Blog
+Exec=/usr/bin/google-chrome --app=http://rauldipeas.github.io
+Icon=github
+OnlyShowIn=Unity;
+
+[Desktop Action TelegramWeb]
+Name=Telegram Web
+Exec=/usr/bin/google-chrome --app=https://web.telegram.org/#/im
+Icon=telegram
+OnlyShowIn=Unity;
+
+[Desktop Action SkypeWeb]
+Name=Skype Web
+Exec=/usr/bin/google-chrome --app=https://web.skype.com/pt-br
+Icon=skype
+OnlyShowIn=Unity;
+
+[Desktop Action Pushbullet]
+Name=Pushbullet
+Exec=/usr/bin/google-chrome --app=http://pushbullet.com
+Icon=web-pushbullet
+OnlyShowIn=Unity;
+
+[Desktop Action Flickr]
+Name=Flickr
+Exec=/usr/bin/google-chrome --app=https://www.flickr.com
+Icon=flickr
+OnlyShowIn=Unity;
+
+[Desktop Action Reep.io]
+Name=Reep.io
+Exec=/usr/bin/google-chrome --app=http://reep.io
+Icon=reep.io
+OnlyShowIn=Unity;
+
+[Desktop Action SoundCloud]
+Name=SoundCloud
+Exec=/usr/bin/google-chrome --app=http://soundcloud.com
+Icon=soundcloud
+OnlyShowIn=Unity;
+
+[Desktop Action Appear.in]
+Name=Appear.in
+Exec=/usr/bin/google-chrome --app=http://appear.in/AviX
+Icon=appear.in
+OnlyShowIn=Unity;
+
+[Desktop Action Space]
+Name=
+Exec=
+Icon=
+OnlyShowIn=Unity;

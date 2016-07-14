@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Fleeber
+Exec=/usr/bin/google-chrome --app=https://pt-br.fleeber.com/
+Icon=fleeber
+StartupWMClass=pt-br.fleeber.com
+Hidden=true

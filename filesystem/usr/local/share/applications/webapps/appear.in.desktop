@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Appear.in
+Exec=/usr/bin/google-chrome --app=http://appear.in/AviX
+Icon=appear.in
+StartupWMClass=appear.in__AviX
+Hidden=true

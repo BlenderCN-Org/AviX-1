@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Google+
+Exec=/usr/bin/google-chrome --app=https://plus.google.com/communities/105284806211759861912
+Icon=googleplus
+StartupWMClass=plus.google.com__communities_105284806211759861912
+Hidden=true

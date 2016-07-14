@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Exec=plank --preferences
+Icon=plank
+Type=Application
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+OnlyShowIn=XFCE;
+Terminal=false
+StartupNotify=true
+Name=Plank preferences
+Name[pt_BR]=Preferencias do Plank
+Comment=Preferências do Plank

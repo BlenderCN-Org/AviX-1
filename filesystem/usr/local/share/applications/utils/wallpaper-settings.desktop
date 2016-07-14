@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=Wallpaper
+Name[pt_BR]=Papel de parede
+Exec=nitrogen
+Icon=preferences-wallpaper
+Terminal=false
+Type=Application
+Categories=XFCE;GTK;Settings;DesktopSettings;X-XFCE-SettingsDialog;X-XFCE-PersonalSettings;
+StartupNotify=true
+OnlyShowIn=XFCE;
+StartupWMClass=nitrogen
+Comment=Configure o papel de parede da área de trabalho

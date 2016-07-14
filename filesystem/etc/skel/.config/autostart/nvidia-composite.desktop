@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=NVIDIA X Server Settings
+Comment=Configure NVIDIA X Server Settings
+Exec=nvidia-settings --assign CurrentMetaMode="nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+Icon=nvidia-settings
+Categories=System;Settings;
